@@ -1,15 +1,15 @@
 {
   "name": "zotero-addon-template",
-  "version": "1.1.2",
-  "description": "Zotero Addon Template",
+  "version": "0.0.0",
+  "description": "Search the world's knowledge with Zotero - effortlessly build Google search queries based on your Zotero collections.",
   "config": {
-    "addonName": "Zotero Addon Template",
-    "addonID": "addontemplate@euclpts.com",
-    "addonRef": "addontemplate",
-    "addonInstance": "AddonTemplate",
-    "prefsPrefix": "extensions.zotero.addontemplate",
-    "releasePage": "https://github.com/windingwind/zotero-addon-template/releases",
-    "updateJSON": "https://raw.githubusercontent.com/windingwind/zotero-addon-template/main/update.json"
+    "addonName": "Zotero Google It",
+    "addonID": "zotero-google-it@quinnmchugh.net",
+    "addonRef": "zotero-google-it",
+    "addonInstance": "ZoteroGoogleIt",
+    "prefsPrefix": "extensions.zotero.zotero-google-it",
+    "releasePage": "https://github.com/quinn-p-mchugh/zotero-google-it/releases",
+    "updateJSON": "https://raw.githubusercontent.com/quinn-p-mchugh/zotero-google-it/main/update.json"
   },
   "main": "src/index.ts",
   "scripts": {
@@ -23,14 +23,14 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/windingwind/zotero-addon-template.git"
+    "url": "git+https://github.com/quinn-p-mchugh/zotero-google-it.git"
   },
-  "author": "windingwind",
+  "author": "Quinn McHugh",
   "license": "AGPL-3.0-or-later",
   "bugs": {
-    "url": "https://github.com/windingwind/zotero-addon-template/issues"
+    "url": "https://github.com/quinn-p-mchugh/zotero-google-it/issues"
   },
-  "homepage": "https://github.com/windingwind/zotero-addon-template#readme",
+  "homepage": "https://github.com/quinn-p-mchugh/zotero-google-it#readme",
   "dependencies": {
     "zotero-plugin-toolkit": "^2.3.30"
   },
