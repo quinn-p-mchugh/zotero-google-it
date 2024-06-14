@@ -47,7 +47,10 @@ class Addon {
       label: "Google It - Launch Google search from collection URLs",
       icon: `chrome://${config.addonRef}/content/icons/google-icon.png`,
       commandListener: async () => {
-        const selectedCollection = ZoteroPane.getSelectedCollection();
+        const selectedCollection = ZoteroPane.getSelectedCollection()
+          ? ZoteroPane.getSelectedCollection()
+          : ZoteroPane.getSelectedSavedSearch();
+        //Zotero.debug(selectedCollection.name);
         if (selectedCollection) {
           const items = await selectedCollection.getChildItems();
           const urls = items

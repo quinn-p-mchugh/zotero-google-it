@@ -19,6 +19,8 @@ function example(
   return descriptor;
 }
 
+Zotero.contex;
+
 export class BasicExampleFactory {
   @example
   static registerNotifier() {
